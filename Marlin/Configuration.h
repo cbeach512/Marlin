@@ -1179,7 +1179,8 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { 10, 10, 0 }
+// #define NOZZLE_TO_PROBE_OFFSET { 10, 10, 0 } // Original settings
+#define NOZZLE_TO_PROBE_OFFSET { 15, 15, 0 } // Updated offset 3-15-2022 for micro swiss direct drive and all metal hotend
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
